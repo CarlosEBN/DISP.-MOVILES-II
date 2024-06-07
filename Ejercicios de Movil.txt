@@ -1,0 +1,201 @@
+
+//////AppsBottons
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+  <ion-button [disabled]="true">DES-HABILITADO</ion-button>
+  <ion-button ion-button color="primary">NORMAL 1</ion-button> 
+  <ion-button color="success">NORMAL 2</ion-button>
+  <ion-button color="secondary" shape="round">Redondo 1</ion-button>
+  <ion-button color="warning" fill="outline">BORDES</ion-button>
+  
+    <ion-button><ion-icon color="tertiary" slot="start" name="star"></ion-icon>
+      L_Imagen </ion-button>
+<ion-button>
+  R_imagen<ion-icon color="danger"slot="end" name="star"></ion-icon>
+</ion-button>
+<ion-button>
+  <ion-icon color="light" slot="icon-only" name="star"></ion-icon>
+</ion-button>
+<br>
+<ion-button color="medium" size="small">Small</ion-button>
+<br>
+<ion-button color="dark" size="default">Default</ion-button>
+<br>
+<ion-button ion-button color="primary" fill="clear" size="large">Large</ion-button>
+
+  </div>
+</ion-content>
+
+
+
+
+
+
+///////Agenda
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      AGENDA DE PROFESORES 
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-list [inset] ="true">
+      <ion-item>
+      <ion-icon color="light" slot="icon-only" name="star">pokémon Yellow</ion-icon>
+    </ion-item>
+
+    <ion-item>
+        <ion-label>BRUCE BANNER</ion-label>
+      </ion-item>
+
+      <ion-item>
+<ion-label>TONY STAR</ion-label>
+      </ion-item>
+
+      <ion-item>
+        <ion-icon name="leaf" item-start></ion-icon>CLARK KENT
+      </ion-item>
+
+      <ion-item>
+        <ion-label>BRUCE WAYNE</ion-label>
+      </ion-item>
+
+      <ion-button>  
+<ion-icon color="danger" slot="start" name="star"></ion-icon>
+   BUSCAR
+</ion-button>
+
+    </ion-list>
+
+  </div>
+</ion-content>
+
+
+
+
+
+
+
+/////////////Listas
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Listas
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-list>
+      <ion-item color="primary">
+        <ion-avatar item-start>
+          <img src="assets/icon/Mario_b.jpg">
+        </ion-avatar>
+          <ion-icon name="leaf" item-start></ion-icon>
+          Super Mario Bros
+      </ion-item>
+      <ion-item color="warning">
+        <ion-avatar item-start>
+          <img src="assets/icon/zelda_li.png">
+        </ion-avatar>
+        Zalda
+        <ion-icon name="planet" item-end></ion-icon>
+      </ion-item>
+      <ion-item color="tertiary">
+        <ion-avatar item-start>
+          <img src="assets/icon/Bowser.png">
+        </ion-avatar>
+        <ion-icon name="flask" item-start></ion-icon>
+        Bowser
+        <ion-icon name="lock" item-end></ion-icon>
+      </ion-item>
+        <ion-item color="danger">
+          <ion-avatar item-start>
+            <img src="assets/icon/pacMans.jpg">
+          </ion-avatar>
+          <ion-label>
+            PacMan
+            <ion-icon name="planet" item-end></ion-icon>
+          </ion-label>
+        </ion-item>
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="assets/icon/ring_sonic.jpg">
+        </ion-avatar>
+        <ion-label>
+          Sonico
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>
+
+
+
+
+///Marvel vs COMI
+
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Marvel Vs CD Comics
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="small" color="danger" collapse="condense">Marvel vs 
+        DC Camics</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-img src="https://i.ytimg.com/vi/ZsePOJmJ9Cg/maxresdefault.jpg"></ion-img>
+      
+      </ion-card-header>
+      <ion-title color="tertiary">
+           Marvel vs Dc Comics
+      </ion-title>
+      <ion-card-content></ion-card-content>
+    </ion-card>
+    
+  </div>
+</ion-content>
+
