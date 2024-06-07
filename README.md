@@ -12,3 +12,7 @@ JHON DEIVIS RIVAS BERMUDEZ - CONEXION LOGICA A BD IONIC
 EDWIN CAICEDO VASQUEZ - CONEXION LOGICA A BD IONIC  
 
 DANIEL ESTIWER VALENCIA MURILLO - CONEXION LOGICA A BD IONIC
+
+video:  
+
+https://profesoresuniajcedu-my.sharepoint.com/:v:/g/personal/cebarco_estudiante_uniajc_edu_co/EU0DU6XqzjRMvVSBCdJ_vp8B2N0fdhLQ1WHJgXGWoaDkcQ?e=wY7mpG  
